@@ -1,0 +1,51 @@
+
+   /*ใช้ฟอนต์จาก Google Fonts*/
+   body {
+    background-image: url('background.jpg'); /* แทนที่ 'background.jpg' ด้วยชื่อไฟล์รูปภาพของคุณ */
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้ครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* ตั้งค่าภาพให้ตรงกลาง */
+    font-family: 'Chonburi', sans-serif; /* ใช้ฟอนต์ที่คุณต้องการ */
+    color: #ffffff; /* ตั้งสีข้อความเป็นสีขาวเพื่อให้มองเห็นได้ชัด */
+    margin: 0;
+    padding: 0;
+   }
+
+   h1 {
+      font-family: "ltim", sans-serif;
+      font-weight: 500;
+      text-align: center;
+   }
+   h3 {
+    font-family: "ltim", sans-serif;
+    font-weight: 500;
+    text-align: center;
+ }
+   p {
+      font-family:"ltim", sans-serif;
+      font-weight:200px;
+      font-size:18px;
+      text-align: center;
+   }
+
+   img {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;/*ทำให้รูปภาพเป็นวงกลม */
+      object-fit: cover; /*ปรับให้รูปภาพพอดีกับกรอบ */
+   }
+
+   button {
+      background-color: rgb(0, 38, 253);
+      color: rgb(255, 255, 255);
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+   }
+   button:hover{
+      background-color:rgb(167, 184, 91) ;
+   }
